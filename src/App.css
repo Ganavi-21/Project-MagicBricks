@@ -1,0 +1,250 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+
+.bg-body-tertiary{
+  margin: 0%;
+  padding: 0%;
+}
+
+
+.nav_text{
+  font-weight: bold;
+}
+.srchround{
+  border-radius: 30px;
+ margin:  0 300px  50px 300px;
+}
+.card_color{
+  background-color: bisque;
+}
+.card_color:hover{
+  box-shadow: 5px 5px 5px 5px;
+  cursor: pointer;
+}
+
+.TextColor{
+  font-size: 13px;
+  color: blue;
+} 
+.Bgclr{
+  /* color: #61dafb; */
+  background-color:lightblue
+
+}
+.Bgclr2{
+  background-color: ffff;
+}
+.TextColor2{
+  /* color: black; */
+  /* font-weight: bold; */
+  font-size: 12px;
+}
+.MainCard{
+  border-radius: 10px;
+  height: 310px;
+}
+.MainCard:hover{
+  box-shadow: 3px 5px 2px lightslategray;
+  cursor: pointer;
+}
+
+.prop_serve:hover{
+  box-shadow: 3px 6px 2px lightslategray;
+
+}
+.Box_s:hover{
+  box-shadow: 5px 5px 5px 5px lightslategray;
+}
+.firstBadge{
+  margin-right: 0rem;
+}
+
+.badge{
+  position: relative;
+  left: 40px;
+}
+.badge_2{
+  display: none;
+}
+.bricks_1{
+  font-size: small;
+}
+.Bricks_4{
+  font-size:small;
+  cursor: pointer;
+}
+.vido_h{
+  height: 23rem;
+}
+.top{
+  margin-top: 5rem;
+}
+.vido_h:hover{
+  /* box-shadow: 2px 2px 5px 2px red ; */
+  border-top: solid 1px red;
+  box-shadow: 5px 5px 5px 5px lightslategray;
+}
+
+.nav_bold{
+  font-weight: bold;
+  color:gray;
+  font-style: italic;
+  text-decoration: none;
+  position: relative;
+  cursor: pointer;
+ }
+ .nav_bold::after{
+  content: '';
+  width:0;
+  height: 3px;
+  background: #ff004f;
+  position: absolute;
+  left: 0;
+  bottom: -6px;
+  transition: 0.5s;
+}
+.nav_bold:hover::after{
+  width: 100%;
+}
+.Bricks_11{
+  cursor: pointer;
+  color: #282c34;
+  text-decoration: none;
+}
+.ho{
+  cursor: pointer;
+}
+
+.snap{
+  margin-right: 100px;
+}
+.propert{
+  cursor: pointer;
+}
+.post{
+  background-color: bisque;
+  width: 77rem;
+  cursor: pointer;
+}
+.post1{
+  margin-top: 20px;
+  font-style: oblique;
+  font-size: x-large;
+  
+}
+.fon{
+  font-size: xx-large;
+}
+.font{
+  border: solid 1px yellow;
+  border-radius: 10px;
+  position: relative;
+  left: 60rem;
+  bottom: 3rem;
+  font-size:x-large;
+  margin: 2px;
+  font-style: normal;
+  margin: 2px 2px 2px 2px;
+  padding: 5px;
+  
+}
+.baa{
+  position: relative;
+  right: 40px;
+  font-size: smaller;
+  bottom: 1px;
+}
+
+
+.footer-container {
+  background-color: lightgrey;
+  color: black;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.footer-section {
+  flex: 1;
+  margin-bottom: 20px;
+}
+
+.footer-content {
+  text-align: left;
+}
+
+.contact-icons i {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  background: transparent;
+  border: 2px solid black;
+  border-radius: 50%;
+  font-size: 24px;
+  color: #000;
+  text-decoration: none;
+  margin: 0 15px 0 0;
+  opacity: 1;
+}
+
+.contact-icons i:hover {
+  background: gray;
+  color: #000;
+  box-shadow: 0 0 20px black;
+}
+
+@media screen and (max-width: 768px) {
+  .footer-container {
+    flex-direction: column;
+  }
+}
+
+
+
+
+
+
+
+
+
