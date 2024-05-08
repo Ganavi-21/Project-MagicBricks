@@ -242,9 +242,95 @@
 
 
 
+.bgm{
+  background-color: dimgray;
+  }
+  
+    .ArrowButton1{
+    position:absolute;
+    right: 5%;
+    top: 528%;
+    border-radius: 20px;
+    height: 40px;
+    background-color: white;
+  }
+  .ArrowButton2{
+    position:absolute;
+   left: 4%;
+    top: 528%;
+    border-radius: 40px;
+    height: 40px;
+    background-color:white;
+  }
+  .ArrowButtonLeft {
+    position: absolute;
+    left: 7%;
+    top: 140%;
+    transform: translateY(-50%);
+    border-radius: 30px;
+    background-color:white;
+  }
+  .ArrowButtonLeft:hover{
+    background-color: red;
+    color: #282c34;
+  }
+  .ArrowButtonRight:hover{
+    background-color: red;
+    color: white;
+  }
+  
+  .ArrowButtonRight {
+    position: absolute;
+    right: 5%;
+    top: 140%;
+    transform: translateY(-50%);
+    border-radius: 30px;
+    background-color:white;
+  }
+ 
+ 
+  .mo{
+    position: relative;
+    left: 14rem;
+  }
+  .mon{
+    position: relative;
+    left: 5rem;
+  }
+  .tu{
+    position: relative;
+    left: 7rem;
+  }
+  
+  .tues{
+    position: relative;
+    left: 4rem;
+  }
+  .thu{
+    position: relative;
+    left: 0rem;
+  }
+  .fri{
+    position: relative;
+    left: 10rem;
+  }
+  .rip{
+    color: red;
+    position: relative;
+    left: 1rem;
+  }
+  
+  .poo{
+    background-color: white;
+    width: 64rem;
+    height: 25rem;
+    cursor: pointer;
+  }
+  
 
+  
 
-
+  
 
 
 

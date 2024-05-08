@@ -21,7 +21,7 @@ let Service=()=>{
     <Card.Text>
       Societies served: L and T Raintree Boulevard
     </Card.Text>
-    <Card.Link href="#" style={{ color: 'red', textDecoration: 'none', display: 'flex', alignItems: 'center' }}>
+    <Card.Link href="/viewscreen.js" style={{ color: 'red', textDecoration: 'none', display: 'flex', alignItems: 'center' }}>
   View all 20 Flats
   <span style={{ marginLeft: '5px' }}>&rarr;</span>
 </Card.Link>

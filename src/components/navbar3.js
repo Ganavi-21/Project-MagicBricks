@@ -1,9 +1,8 @@
 import React, { useState } from 'react';
+import "bootstrap/dist/css/bootstrap.min.css";
 import { Container, Nav, Navbar, NavDropdown, Card, Button } from 'react-bootstrap';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import { Link } from 'react-router-dom';
 
-function BasicExample() {
+function Nav3() {
   const [showDropdown, setShowDropdown] = useState(false);
   const [showPrimeDropdown, setShowPrimeDropdown] = useState(false);
   const [showLoginDropdown, setShowLoginDropdown] = useState(false);
@@ -32,7 +31,7 @@ function BasicExample() {
     setShowLoginDropdown(false);
   };
 
- 
+  // Array of cities
   const cities = [
     'INDIA',
     'Nearby Cities',
@@ -46,6 +45,7 @@ function BasicExample() {
     'Chennai',
     'Gurgaon',
     'Hyderabad',
+    // Add more cities as needed
   ];
 
   return (
@@ -103,24 +103,14 @@ function BasicExample() {
               <Card style={{ width: '18rem' }}>
                 <Card.Body>
                   <Card.Title>My Activity</Card.Title>
-                  {/* <li><Card.Link href="#">Requested Properties</Card.Link></li>
+                  <li><Card.Link href="#">Requested Properties</Card.Link></li>
                   <li><Card.Link href="#">Contacted Properties</Card.Link></li>
                   <li><Card.Link href="#">Viewed Properties</Card.Link></li>
                  <li> <Card.Link href="#">Shortlisted Properties</Card.Link></li>
                  <li> <Card.Link href="#">Searches</Card.Link></li>
                  <li> <Card.Link href="#">Recommendations</Card.Link></li>
                  <li> <Card.Link href="#">My Profile</Card.Link></li>
-                 <li> <Card.Link href="#" className='btn btn-danger'>Login</Card.Link></li> */}
-                 
-
-                  <li>Requested Propertie</li>
-                  <li>Contacted Properties</li>
-                  <li>Viewed Properties</li>
-                 <li> Shortlisted Properties</li>
-                 <li> Searches</li>
-                 <li> Recommendations</li>
-                 <li> My Profile</li>
-                 <li> <Card.Link href="/Log" className='btn btn-danger'>Login</Card.Link></li>
+                 <li> <Card.Link href="#" className='btn btn-danger'>Login</Card.Link></li>
                 </Card.Body>
               </Card>
             </NavDropdown>
@@ -128,12 +118,16 @@ function BasicExample() {
           <Navbar.Text href="#home" className='hea'><span className=' hlo bg-light'>Post Property 
         </span>
           </Navbar.Text>
+
+{/* <Navbar.Text href="#home" className=" mx-4 rounded-white-bg text-link-decoration"  style={{marginRight:'30px'}}>Post Property
+          <Badge bg="warning" text="dark" className="rounded-white-bg">FREE</Badge>
+          </Navbar.Text> */}
         </Navbar.Collapse>
       </Container>
     </Navbar>
   );
 }
 
-export default BasicExample;
+export default Nav3;
 
 

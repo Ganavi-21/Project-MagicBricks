@@ -4,6 +4,7 @@ import DescriptionIcon from "@mui/icons-material/Description";
 import CalculateIcon from "@mui/icons-material/Calculate";
 import TrendingUpIcon from "@mui/icons-material/TrendingUp";
 import "bootstrap/dist/css/bootstrap.min.css";
+import {Link} from   "react-router-dom"
 
 const Advice = () => {
   return (
@@ -60,6 +61,7 @@ const Advice = () => {
                   Know the right value for your Property before you Buy.
                 </Card.Text>
                 {/* <Card.Link href="#">View all 20 Flats</Card.Link> */}
+                <Link to="/details">
                 <Card.Link
                   href="#"
                   style={{
@@ -71,7 +73,7 @@ const Advice = () => {
                 >
                   Read more
                   <span style={{ marginLeft: "5px" }}>&rarr;</span>
-                </Card.Link>
+                </Card.Link></Link>
               </Card.Body>
             </Card>
             {/* </div> */}
